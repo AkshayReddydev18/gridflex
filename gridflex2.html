@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container{
+            display: grid;
+            grid-template-columns:100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 10px;
+            /* background-color: antiquewhite; */
+
+        }
+        div.child{
+            /* background-color: aquamarine; */
+        }
+        .child1{
+            grid-row:1/4
+        }.child2{
+            grid-column: 2/4;
+        }
+        .child6{
+            grid-row: 2/4;
+            grid-column: 4/5;
+
+        }img{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        [alt="shin2"]{
+            height: 320px;
+            border: 2px solid blue;
+
+        }
+        [alt="vk"]{
+            width: 210px;
+            border: 2px solid rgb(194, 60, 60);
+        }[alt="sin1"]{
+            height: 210px;
+            border: 2px solid green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child child1"><img src="./shin2.jpeg" alt="shin2"></div>
+        <div class="child child2"><img src="./vk.jpeg" alt="vk"></div>
+        <div class="child child3"><img src="./peace2.jpeg" alt="p2"></div>
+        <div class="child child4"><img src="./peace3.jpeg" alt="p3"></div>
+        <div class="child child5"><img src="./peace4.jpeg" alt="p4"></div>
+        <div class="child child6"><img src="./sin1.jpg" alt="sin1"></div>
+        <div class="child child7"><img src="./pea1.jpeg" alt="pe1"></div>
+        <div class="child child8"><img src="./peace1.webp" alt="p1"></div>
+    </div>
+    <a href="./index.html"><button>Home</button></a>
+    <a href="./gridflex3.html"><button>Gridflex3</button></a>
+    <a href="./gridflex4.html"><button>Gridflex4</button></a>
+    
+</body>
+</html>
